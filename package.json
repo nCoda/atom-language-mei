@@ -1,19 +1,19 @@
 {
-  "name": "language-xml",
+  "name": "language-mei",
   "version": "0.34.1",
-  "description": "XML language support in Atom",
+  "description": "MEI language support in Atom",
   "engines": {
     "atom": "*",
     "node": "*"
   },
-  "homepage": "http://atom.github.io/language-xml",
+  "homepage": "https://github.com/nCoda/atom-language-mei",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/language-xml.git"
+    "url": "https://github.com/nCoda/atom-language-mei.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atom/language-xml/issues"
+    "url": "https://github.com/nCoda/atom-language-mei/issues"
   },
   "devDependencies": {
     "coffeelint": "^1.10.1"
