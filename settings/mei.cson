@@ -1,0 +1,36 @@
+'.text.xml':
+  'validation':
+    'rules': [
+      {
+        priority: 1
+        test:
+          grammarScope: "text.xml.mei"
+        outcome:
+          schemaProps: [
+            {
+              lang: "rng"
+              path: "../schemata/mei-all.rng"
+            }
+            {
+              lang: "sch.iso"
+              path: "../schemata/mei-all.rng"
+            }
+          ]
+      }
+      {
+        priority: 1
+        test:
+          rootNs: "http://www.music-encoding.org/ns/mei"
+        outcome:
+          schemaProps: [
+            {
+              lang: "rng"
+              path: "../schemata/mei-all.rng"
+            }
+            {
+              lang: "sch.iso"
+              path: "../schemata/mei-all.rng"
+            }
+          ]
+      }
+    ]
