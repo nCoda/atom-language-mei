@@ -1,6 +1,6 @@
 {
   "name": "language-mei",
-  "version": "0.34.3",
+  "version": "0.34.4",
   "description": "MEI language support in Atom",
   "engines": {
     "atom": "*",
